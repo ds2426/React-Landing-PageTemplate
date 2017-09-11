@@ -1,0 +1,48 @@
+
+.mainNavBar {
+  $navItemColor: #929292;
+  $navItemColorActive: #424242;
+  background-color: #FFF;
+  position: fixed;
+  height: 50px;
+  opacity: .7;
+  width: 100%;
+  z-index: 99;
+  top: 70px;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    opacity: 1;
+    li {
+      float: left;
+      font-size: 12px;
+      display: block;
+      color: $navItemColor;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      cursor: pointer;
+      text-transform: uppercase;
+
+      &:hover {
+        color: $navItemColorActive;
+        transition: .3s;
+      }
+
+      &.active {
+        color: $navItemColorActive;
+        font-weight: 600;
+      }
+    }
+
+  }
+
+}
+
+

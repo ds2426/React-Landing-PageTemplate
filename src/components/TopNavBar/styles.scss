@@ -1,0 +1,63 @@
+.TopNavBar {
+  background-color: #000;
+  position: fixed;
+  height: 70px;
+  opacity: .9;
+  width: 100%;
+  z-index: 99;
+  .logo__image {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    cursor: pointer;
+
+    ul.submenu {
+
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  li {
+    float: left;
+    font-size: 12px;
+    display: block;
+    color: #FFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+    &:hover {
+      font-weight: 600;
+    }
+
+    .submenu {
+      display: none;
+    }
+  }
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 0 0 8px;
+}
+
+.menu-bar1, .menu-bar2, .menu-bar3 {
+  width: 8px;
+  height: 1px;
+  background-color: #FFF;
+  margin: 2px 0;
+  transition: 0.4s;
+}
+

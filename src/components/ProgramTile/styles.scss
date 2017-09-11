@@ -1,0 +1,56 @@
+.program {
+  $textColor: #929292;
+  $titleColor: #424242;
+  width: 240px;
+  height: 320px;
+  float: left;
+  padding: 0 20px 20px 0;
+  overflow: hidden;
+  text-align: left;
+  cursor: pointer;
+  .program-title {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 14px;
+    color: $titleColor;
+    font-family: "Open Sans", sans-serif;
+  }
+  .program-text {
+    line-height: 12px;
+    font-size: 12px;
+    font-style: italic;
+    color: $textColor;
+  }
+  &:hover img {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+  }
+
+  img {
+    width: 240px;
+    height: 240px;
+  }
+
+  .hover13 figure:hover img {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+  }
+  @-webkit-keyframes flash {
+    0% {
+      opacity: .4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes flash {
+    0% {
+      opacity: .4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}

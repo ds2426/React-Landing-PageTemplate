@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "image": "dist/assets/tile1.png",
+    "title": "Get fit with Jillian Michaels",
+    "text": "weight loss"
+  },
+  {
+    "id": 2,
+    "image": "dist/assets/tile2.png",
+    "title": "Grand Canyon",
+    "text": "incline trainer"
+  },
+  {
+    "id": 3,
+    "image": "dist/assets/tile3.png",
+    "title": "Power Walk",
+    "text": "walking"
+  },
+  {
+    "id": 4,
+    "image": "dist/assets/tile4.png",
+    "title": "Elliptical Weight Loss",
+    "text": "weight loss"
+  },
+  {
+    "id": 5,
+    "image": "dist/assets/tile5.png",
+    "title": "Off Season Weight Loss",
+    "text": "cycling"
+  },
+  {
+    "id": 6,
+    "image": "dist/assets/tile6.png",
+    "title": "Central Park",
+    "text": "fitness"
+  },
+  {
+    "id": 7,
+    "image": "dist/assets/tile7.png",
+    "title": "5k Beginner Training",
+    "text": "running"
+  },
+  {
+    "id": 8,
+    "image": "dist/assets/tile9.png",
+    "title": "Going Costal",
+    "text": "running"
+  },
+  {
+    "id": 9,
+    "image": "dist/assets/tile1.png",
+    "title": "Elliptical Weight loss",
+    "text": "weight loss"
+  },
+  {
+    "id": 10,
+    "image": "dist/assets/tile10.png",
+    "title": "incline Train",
+    "text": "incline trainer"
+  },
+  {
+    "id": 11,
+    "image": "dist/assets/tile11.png",
+    "title": "Paris",
+    "text": "running"
+  },
+  {
+    "id": 12,
+    "image": "dist/assets/tile1.png",
+    "title": "Lose Weight with Jillian Michaels",
+    "text": "weight loss"
+  }
+]

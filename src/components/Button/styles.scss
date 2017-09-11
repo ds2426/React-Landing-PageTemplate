@@ -1,0 +1,11 @@
+.Button {
+  background-color: #0097d9;
+  border: 0;
+  cursor: pointer;
+  color: #FFF;
+  padding: 20px 40px;
+  text-transform: uppercase;
+  &:hover {
+    opacity: .8;
+  }
+}
